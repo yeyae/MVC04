@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- ApplicationContext
+	이전에는 우리가 class를 사용해서 spring을 설정했지만 xml 파일로도 똑같이 하는 방법
+	
+	id : Bean의 식별자(메소드의 이름)
+	class : Bean을 만들기 위한 참조 클래스(메소드 타입) 
+	
+	 -->
+	
+	<bean id="hello" class="spring_xml.Hello" ></bean>
+	<bean id="hello2" class="spring_xml.Hello"></bean>
+
+</beans>
